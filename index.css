@@ -1,0 +1,102 @@
+/* main body */
+body{
+    margin-top: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* main page */
+.box{
+    border: 1px solid;
+    display: flex;
+}
+/* left side */
+.leftside{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+/* right side  */
+.rightside{
+    margin-top: 0%;
+    width: 70%;
+    padding: 0px 40px 0px 40px;
+}
+/* profile image */
+img{
+    margin-left: 0%;
+    width: 250px;
+    height: 200px;
+}
+/* technical slills */
+.technical_skill{
+    margin-top: 10px;
+}
+/* career objective */
+.career_objective{
+    margin-top: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* experience */
+.experience{
+    margin-top: 165px;
+}
+/* yellow part */
+.profile{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: -48px;
+    margin-top: 40px;
+    border: 1px solid;
+    background-color: yellow;
+    overflow: visible;
+    width: 910px;
+}
+/* yellow part Naming section*/
+.profile .naming{
+    color: black;
+}
+/* Name */
+.profile .naming .name{
+    margin-left: 15px;
+    font-size: 65px;
+}
+/* below the name */
+.profile .naming .content{
+    font-size: 20px;
+    margin-left: 20px;
+}
+/* contact details */
+.box .contacts{
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+/* contact details in seprate*/
+.contacts .location{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0;
+}
+/* the written part in contact details */
+.contacts pre{
+    position: relative;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+/* images in contact details */
+.location #abc{
+    background-color: black;  
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+    margin: 3px;
+    width: 20px;
+}
